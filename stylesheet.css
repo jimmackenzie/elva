@@ -7,6 +7,8 @@ body {
 
 .title {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
   font-size: 36px;
 }
@@ -18,4 +20,5 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+  color: #dcd7cf;
 }
