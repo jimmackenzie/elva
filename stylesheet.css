@@ -21,3 +21,11 @@ body {
   font-size: 48px;
   font-weight: normal;
 }
+
+.description img {
+  display: inline-block;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
