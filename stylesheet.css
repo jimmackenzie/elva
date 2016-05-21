@@ -1,9 +1,16 @@
 body {
   background: #2D2B2B;
-  font-family: Courier;
+  font-family: Input Sans;
   color: #4ac4d3;
   font-size: 24px;
   text-align:center;
+  -webkit-font-smoothing: auto;
+}
+
+a {
+  color: #856EC6;
+  text-decoration: none;
+  border-bottom: 1px solid #856EC6;
 }
 
 .description {
@@ -22,10 +29,25 @@ body {
   font-weight: normal;
 }
 
-.description img {
+.description figure {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
   display: inline-block;
-  width:100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+}
+
+.description img {
+  width: 100%;
+}
+
+.description figcaption {
+  font-size: 14px;
+  color: #aba7a1;
+  text-align: center;
+  margin-top:10px;
+  font-family: sans-serif;
+  border-top: 1px solid #181717;
+  padding-top: 10px;
 }
