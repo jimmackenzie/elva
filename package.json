@@ -8,7 +8,7 @@
     "theme",
     "ᕕ( ᐛ )ᕗ"
   ],
-  "repository": "https://github.com/atom/elva-syntax",
+  "repository": "https://github.com/jimmackenzie/elva",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
