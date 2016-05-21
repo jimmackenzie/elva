@@ -52,6 +52,25 @@ a {
   padding-top: 10px;
 }
 
+ol {
+  margin-left: 10%;
+  font-size: 18px;
+}
+
+pre {
+  font-size: 18px;
+  margin-left: 10%;
+}
+
+.footer {
+  font-size: 18px;
+}
+
 .love {
   color: #62CB67;
+}
+
+.happy {
+  font-size: 14px;
+  color: #aba7a1;
 }
