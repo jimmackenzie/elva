@@ -35,7 +35,7 @@ atom-text-editor, :host {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @camper-light-green;
+    color: @elva-light-green;
   }
 
   .invisible {
@@ -68,54 +68,54 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .keyword {
-  color: @camper-light-green;
+  color: @elva-light-green;
 
   &.control {
-    color: @camper-light-green;
+    color: @elva-light-green;
   }
 
   &.operator {
-    color: @camper-green;
+    color: @elva-green;
   }
 
   &.other.special-method {
-    color: @camper-cyan;
+    color: @elva-cyan;
   }
 
   &.other.unit {
-    color: @camper-purple;
+    color: @elva-purple;
   }
 }
 
 .storage {
-  color: @camper-purple;
+  color: @elva-purple;
 }
 
 .constant {
-  color: @camper-blue;
+  color: @elva-blue;
 
   &.character.escape {
-    color: @camper-cyan;
+    color: @elva-cyan;
   }
 
   &.numeric {
-    color: darken(@camper-blue,15%);
+    color: darken(@elva-blue,15%);
   }
 
   &.other.color {
-    color: @camper-cyan;
+    color: @elva-cyan;
   }
 
   &.other.symbol {
-    color: @camper-blue;
+    color: @elva-blue;
   }
 }
 
 .variable {
-  color: @camper-cyan;
+  color: @elva-cyan;
 
   &.interpolation {
-    color: darken(@camper-cyan, 10%);
+    color: darken(@elva-cyan, 10%);
   }
 
   &.parameter.function {
@@ -124,7 +124,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .invalid.illegal {
-  background-color: @camper-red;
+  background-color: @elva-red;
   color: @syntax-background-color;
 }
 
@@ -132,21 +132,21 @@ atom-text-editor .search-results .marker.current-result .region,
   color: @syntax-comment-color;
 
   &.regexp {
-    color: @camper-cyan;
+    color: @elva-cyan;
 
     .source.ruby.embedded {
-      color: @camper-red;
+      color: @elva-red;
     }
   }
 
   &.other.link {
-    color: @camper-red;
+    color: @elva-red;
   }
 }
 
 .punctuation {
   &.namespace {
-    color: @camper-blue;
+    color: @elva-blue;
   }
 
   &.separator {
@@ -159,7 +159,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.variable {
-      color: @camper-cyan;
+      color: @elva-cyan;
     }
 
     &.string,
@@ -169,16 +169,16 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.heading,
     &.identity {
-      color: @camper-blue;
+      color: @elva-blue;
     }
 
     &.bold {
-      color: @camper-light-orange;
+      color: @elva-light-orange;
       font-weight: bold;
     }
 
     &.italic {
-      color: @camper-purple;
+      color: @elva-purple;
       font-style: italic;
     }
 
@@ -188,7 +188,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.section.embedded {
-    color: lighten(@camper-purple,15%);
+    color: lighten(@elva-purple,15%);
   }
 
   &.section.array {
@@ -199,27 +199,27 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .support {
   &.class {
-    color: @camper-blue;
+    color: @elva-blue;
   }
 
   &.function  {
     &.any-method {
-      color: @camper-light-green;
+      color: @elva-light-green;
     }
   }
 }
 
 .entity {
   &.name.function {
-    color: lighten(@camper-purple,10%);
+    color: lighten(@elva-purple,10%);
   }
 
   &.other.inherited-class {
-    color: @camper-green;
+    color: @elva-green;
   }
 
   &.name.tag {
-    color: @camper-green;
+    color: @elva-green;
   }
 
   &.name.tag.block,
@@ -228,29 +228,29 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.attribute-name {
-    color: @camper-cyan;
+    color: @elva-cyan;
 
     &.id {
-      color: @camper-cyan;
+      color: @elva-cyan;
     }
   }
 }
 
 .meta {
   &.class {
-    color: @camper-light-orange;
+    color: @elva-light-orange;
   }
 
   &.link {
-    color: @camper-light-orange;
+    color: @elva-light-orange;
   }
 
   &.require {
-    color: @camper-light-orange;
+    color: @elva-light-orange;
   }
 
   &.selector {
-    color: @camper-green;
+    color: @elva-green;
   }
 
   &.separator {
@@ -265,48 +265,48 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .markup {
   &.bold {
-    color: @camper-light-orange;
+    color: @elva-light-orange;
     font-weight: bold;
   }
 
   &.changed {
-    color: @camper-purple;
+    color: @elva-purple;
   }
 
   &.deleted {
-    color: @camper-red;
+    color: @elva-red;
   }
 
   &.italic {
-    color: @camper-purple;
+    color: @elva-purple;
     font-style: italic;
   }
 
   &.heading .punctuation.definition.heading {
-    color: @camper-blue;
+    color: @elva-blue;
   }
 
   &.inserted {
-    color: @camper-green;
+    color: @elva-green;
   }
 
   &.list {
-    color: @camper-red;
+    color: @elva-red;
   }
 
   &.quote {
-    color: @camper-light-orange;
+    color: @elva-light-orange;
   }
 
   &.raw.inline {
-    color: @camper-green;
+    color: @elva-green;
   }
 }
 
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @camper-cyan;
+    color: @elva-cyan;
   }
 }
 
