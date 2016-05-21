@@ -4,3 +4,18 @@ body {
   color: #4ac4d3;
   font-size: 24px;
 }
+
+.title {
+  width: 100%;
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.description {
+  display: block;
+  margin-top: 75px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
