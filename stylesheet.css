@@ -6,11 +6,15 @@ body {
 }
 
 .title {
+  width: 100%;
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.title p {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  font-size: 36px;
 }
 
 .description {
